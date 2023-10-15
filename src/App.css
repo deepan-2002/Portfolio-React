@@ -1,38 +1,33 @@
-.App {
-  text-align: center;
+  @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap');
+
+:root {
+    --primary: #854CE6;
+    --background-1: #222A35;
+    --button: #854CE6;
+    --background-2: #19212C;
+    --text: #C8CFD8;
+    --text-1: #F2F5F7;
+    --text-2: #626970;
+    --text-3: #575C66;
+    --footer-background: #00012B;
+
+    --bg:#1C1C27;
+    --bg-light: #1C1E27;
+    --text-primary:#F2F3F4;
+    --text-secondary:#b1b2b3;
+    --card:#171721;
+    --card-light: #191924;
+    --white:#FFFFFF;
+    --black:#000000;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body{
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: var(--bg);
 }

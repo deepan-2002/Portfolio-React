@@ -1,0 +1,10 @@
+.hero-container{
+    background-color: var(--card-light);
+}
+
+.hero-container-left .name{
+    color: var(--text-primary);
+    font-size: 50px;
+    line-height: 68px;
+    font-weight: 700;
+}
