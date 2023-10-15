@@ -1,10 +1,46 @@
-.hero-container{
+.hero-container {
     background-color: var(--card-light);
+    padding: 80px 30px;
 }
 
-.hero-container-left .name{
+.hero-container-left .name {
     color: var(--text-primary);
     font-size: 50px;
     line-height: 68px;
     font-weight: 700;
+}
+
+.hero-container-left .role {
+    font-size: 32px;
+    color: var(--primary);
+    font-weight: 600;
+}
+
+.hero-container-left .description {
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 42px;
+    color: var(--text-secondary);
+}
+
+.hero-container-left button {
+    width: 300px;
+    padding: 16px 0;
+    border-radius: 20px;
+    background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
+    box-shadow: 20px 20px 60px #1F2634;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--white);
+}
+
+.hero-container-left button:hover {
+    transform: scale(1.05);
+    transition: all 0.4s ease-in-out;
+}
+
+.hero-container-right img{
+    border-radius: 50%;
+    border: 2px solid var(--primary);
 }

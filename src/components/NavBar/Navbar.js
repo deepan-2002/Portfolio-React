@@ -29,7 +29,7 @@ function Navbar() {
             </li>
           </ul>
           <div className="btn-container-git">
-            <a href={Bio.github}><button>Github Profile</button></a>
+            <a href={Bio.github} target="blank"><button>Github Profile</button></a>
           </div>
         </div>
       </div>
