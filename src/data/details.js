@@ -8,3 +8,38 @@ export const Bio = {
     resume: "https://drive.google.com/file/d/1IuXnAMJNpvxzagt4-L3fUtautkguTbry/view?usp=drivesdk",
     linkedin: "https://www.linkedin.com/in/deeban-yathiraja/"
 };
+
+export const Skill=[
+    {
+        name: 'HTML',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/240px-HTML5_logo_and_wordmark.svg.png'
+    },
+    {
+        name: 'CSS',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/240px-CSS3_logo_and_wordmark.svg.png'
+    },
+    {
+        name: 'Bootstrap',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/240px-Bootstrap_logo.svg.png'
+    },
+    {
+        name: 'JavaScript',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/768px-JavaScript-logo.png'
+    },
+    {
+        name: 'React js',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png'
+    },
+    {
+        name: 'MySQL',
+        image: 'https://upload.wikimedia.org/wikipedia/en/thumb/d/dd/MySQL_logo.svg/200px-MySQL_logo.svg.png'
+    },
+    {
+        name: 'Git',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/1200px-Git_icon.svg.png'
+    },
+    {
+        name: 'GitHub',
+        image: 'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png'
+    }
+]
