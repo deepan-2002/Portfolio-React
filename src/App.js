@@ -3,6 +3,7 @@ import './App.css';
 import Hero from './components/Hero Section/Hero';
 import NavBar from './components/NavBar/Navbar';
 import Skills from './components/Skills/Skills';
+import Certification from './components/Certifications/Certification';
 
 
 const Wrapper = styled.div`
@@ -18,7 +19,10 @@ function App() {
       <Hero />
       <Wrapper>
         <Skills />
+        <Certification />
       </Wrapper>
+
+
     </>
   );
 }

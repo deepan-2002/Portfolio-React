@@ -24,7 +24,8 @@
 }
 
 .hero-container-left button {
-    width: 300px;
+    width: 95%;
+    max-width: 300px;
     padding: 16px 0;
     border-radius: 20px;
     background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);

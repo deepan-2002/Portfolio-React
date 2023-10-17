@@ -1,7 +1,7 @@
 .skills-container p{
     font-size: 42px;
     font-weight: 600;
-    margin-top: 20px;
+    padding-top: 20px;
     color: var(--text-primary);
     text-align: center;
 }

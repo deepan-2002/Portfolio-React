@@ -1,3 +1,6 @@
+import HTML1 from '../image/HTML.png'
+import JavaScript from '../image/JavaScript.png'
+
 export const Bio = {
     name: "Deeban Yathiraja R",
     roles: [
@@ -5,7 +8,7 @@ export const Bio = {
     ],
     description: "Seeking a beginner role to enhance and explore my technical knowledge gained. Have Excellent teamwork, interpersonal and communication skills. Looking to start a career as an entry-level professional with a reputed IT company.",
     github: "https://github.com/deepan-2002",
-    resume: "https://drive.google.com/file/d/1IuXnAMJNpvxzagt4-L3fUtautkguTbry/view?usp=drivesdk",
+    resume: "https://drive.google.com/file/d/1J2myadLHf4XTJIde38GiFHNlMC-xN1lK/view?usp=drivesdk",
     linkedin: "https://www.linkedin.com/in/deeban-yathiraja/"
 };
 
@@ -31,15 +34,34 @@ export const Skill=[
         image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png'
     },
     {
-        name: 'MySQL',
-        image: 'https://upload.wikimedia.org/wikipedia/en/thumb/d/dd/MySQL_logo.svg/200px-MySQL_logo.svg.png'
-    },
-    {
         name: 'Git',
         image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/1200px-Git_icon.svg.png'
     },
     {
         name: 'GitHub',
         image: 'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png'
+    }
+]
+
+export const Certifications=[
+    {
+        name: 'HTML and CSS in depth',
+        institution: 'Meta - Cousera',
+        link: 'https://www.coursera.org/account/accomplishments/verify/AET7PL22SJTE',
+        image: HTML1,
+        skill: [
+            'HTML',
+            'CSS',
+            'Bootstrap'
+        ]
+    },
+    {
+        name: 'Programming with JavaScript',
+        institution: 'Meta - Cousera',
+        link: 'https://www.coursera.org/account/accomplishments/verify/795BEFXJULQ5',
+        image: JavaScript,
+        skill: [
+            'JavaScript'
+        ]
     }
 ]
