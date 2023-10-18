@@ -19,7 +19,7 @@ function Certification() {
                                     <p className="title">{certificate.name}</p>
                                     <p className="institute">{certificate.institution}</p>
                                     <p className="skills d-flex flex-wrap"><strong>Skills: </strong>{certificate.skill.map((item) => (
-                                        <p>  • {item}  </p>
+                                        <p className="skill">  • {item}  </p>
                                     ))}</p>
                                 </div>
 

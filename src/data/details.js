@@ -1,5 +1,11 @@
 import HTML1 from '../image/HTML.png'
 import JavaScript from '../image/JavaScript.png'
+import ToDoList from '../image/To Do List.png'
+import Restaurant from '../image/Restaurant.png'
+import Google from '../image/Google.png'
+import Counter from '../image/Counter.png'
+import LightSwitch from '../image/Light Switch.png'
+import Resume from '../image/Resume Builder.png'
 
 export const Bio = {
     name: "Deeban Yathiraja R",
@@ -63,5 +69,80 @@ export const Certifications=[
         skill: [
             'JavaScript'
         ]
+    }
+]
+
+export const projects = [
+    {
+        name:'To-Do List App',
+        skills: [
+            'HTML',
+            'CSS',
+            'JavaScript'
+        ],
+        link: 'https://deepan-2002.github.io/Add-To-List/',
+        code: 'https://github.com/deepan-2002/Add-To-List',
+        image: ToDoList,
+        description: 'Simple To-Do List app using JavaScript'
+    },
+    {
+        name:'Restaurant Table Booking Page',
+        skills: [
+            'ReactJS',
+            'API',
+            'Axios'
+        ],
+        link: 'https://github.com/deepan-2002/Restaurant-Webpage',
+        code: 'https://github.com/deepan-2002/Restaurant-Webpage',
+        image: Restaurant,
+        description: 'Just posting datas in API and fetching that data from that API shown like a Table booking App using ReactJS'
+    },
+    {
+        name:'Counter App',
+        skills: [
+            'HTML',
+            'CSS',
+            'JavaScript'
+        ],
+        link: 'https://deepan-2002.github.io/Counter-App-JS/',
+        code: 'https://github.com/deepan-2002/Counter-App-JS',
+        image: Counter,
+        description: 'Simple JavaScript Project in which we can just increase or decrease number'
+    },
+    {
+        name:'Google Clone',
+        skills: [
+            'HTML',
+            'CSS',
+            'JavaScript'
+        ],
+        link: 'https://deepan-2002.github.io/Google-Dark-Mode/',
+        code: 'https://github.com/deepan-2002/Google-Dark-Mode',
+        image: Google,
+        description: 'Clone of Google webpage with Dark Mode toggle button. Built using JavaScript'
+    },
+    {
+        name:'Light Switch',
+        skills: [
+            'HTML',
+            'CSS',
+            'JavaScript'
+        ],
+        link: 'https://deepan-2002.github.io/Light-Switch-JS/',
+        code: 'https://github.com/deepan-2002/Light-Switch-JS',
+        image: LightSwitch,
+        description: 'Simple Light Switch created where switch can be on and off. Built using JavaScript'
+    },
+    {
+        name:'Resume Builder',
+        skills: [
+            'HTML',
+            'CSS',
+            'JavaScript'
+        ],
+        link: 'https://deepan-2002.github.io/Resume-Builder-JS/',
+        code: 'https://github.com/deepan-2002/Resume-Builder-JS',
+        image: Resume,
+        description: 'SImple Resume Builder, Built using JavaScript.'
     }
 ]

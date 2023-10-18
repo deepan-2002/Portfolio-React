@@ -4,6 +4,7 @@ import Hero from './components/Hero Section/Hero';
 import NavBar from './components/NavBar/Navbar';
 import Skills from './components/Skills/Skills';
 import Certification from './components/Certifications/Certification';
+import Project from './components/Projects/Projects';
 
 
 const Wrapper = styled.div`
@@ -21,6 +22,7 @@ function App() {
         <Skills />
         <Certification />
       </Wrapper>
+      <Project />
 
 
     </>

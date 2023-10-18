@@ -7,6 +7,9 @@ nav {
     font-weight: 700;
     font-family: 'Space Grotesk', sans-serif;
 }
+nav .container{
+    padding: 0;
+}
 
 .nav-link {
     color: var(--text-primary);
