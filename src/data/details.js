@@ -6,6 +6,8 @@ import Google from '../image/Google.png'
 import Counter from '../image/Counter.png'
 import LightSwitch from '../image/Light Switch.png'
 import Resume from '../image/Resume Builder.png'
+import SJC from '../image/SJC-logo.jpeg'
+import SJMHSS from '../image/SJMHSS-logo.jpeg'
 
 export const Bio = {
     name: "Deeban Yathiraja R",
@@ -145,4 +147,29 @@ export const projects = [
         image: Resume,
         description: 'SImple Resume Builder, Built using JavaScript.'
     }
+]
+
+export const education =[
+    {
+        institution: "St. Joseph's College (Autonomous), Trichy",
+        course: "Bachelor of Commerce - B.Com",
+        year: '2019 - 2022',
+        grade: 'CGPA: 7.98',
+        image: SJC
+    },
+    {
+        institution: "Sri Jayendra Matriculation Higher Secondary School, Trichy",
+        course: "HSC (XII)",
+        year: '2018 - 2019',
+        grade: '72.1%',
+        image: SJMHSS
+    },
+    {
+        institution: "Sri Jayendra Matriculation Higher Secondary School, Trichy",
+        course: "SSLC (X)",
+        year: '2016 - 2017',
+        grade: '89%',
+        image: SJMHSS
+    }
+    
 ]

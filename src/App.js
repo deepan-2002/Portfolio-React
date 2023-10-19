@@ -5,6 +5,7 @@ import NavBar from './components/NavBar/Navbar';
 import Skills from './components/Skills/Skills';
 import Certification from './components/Certifications/Certification';
 import Project from './components/Projects/Projects';
+import Education from './components/Education/Education';
 
 
 const Wrapper = styled.div`
@@ -23,6 +24,9 @@ function App() {
         <Certification />
       </Wrapper>
       <Project />
+      <Wrapper>
+        <Education />
+      </Wrapper>
 
 
     </>
