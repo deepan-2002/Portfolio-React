@@ -9,12 +9,12 @@ function Education() {
                 <div className='edu-inner-container'>
                     {education.map((item) => (
                         <div className='row m-4 justify-content-center'>
-                            <div className='col-8'>
-                                <div className='card d-flex flex-row align-items-center'>
-                                    <div>
-                                        <img src={item.image} alt={item.course} className='mx-4' style={{width: '100px'}}/>
+                            <div className='col-12 col-md-10'>
+                                <div className='edu-card row align-items-center'>
+                                    <div className='col-12 col-md-4 col-lg-3 text-center'>
+                                        <img src={item.image} alt={item.course} className='m-4' style={{ width: '100px' }} />
                                     </div>
-                                    <div>
+                                    <div className='col-12 col-md-8 col-lg-9'>
                                         <p className='institute'>{item.institution}</p>
                                         <p className='course'>{item.course}</p>
                                         <p className='year'>{item.year}</p>

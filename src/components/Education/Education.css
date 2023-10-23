@@ -6,7 +6,7 @@
     text-align: center;
 }
 
-.edu-inner-container .card {
+.edu-inner-container .edu-card {
     background-color: var(--card);
     color: var(--text-secondary);
     border: 0.1px solid var(--primary);
@@ -16,29 +16,29 @@
     transition: all 0.3s ease-in-out;
 }
 
-.edu-inner-container .card:hover {
+.edu-inner-container .edu-card:hover {
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
     transform: translateY(-5px);
 }
 
-.edu-inner-container .card .institute {
+.edu-inner-container .edu-card .institute {
     font-size: 18px;
     font-weight: 600;
     color: var(--text-primary);
 }
 
-.edu-inner-container .card .course {
+.edu-inner-container .edu-card .course {
     font-size: 14px;
     font-weight: 500;
     color: var(--text-primary);
 }
 
-.edu-inner-container .card .year {
+.edu-inner-container .edu-card .year {
     font-size: 12px;
     font-weight: 400;
 }
 
-.edu-inner-container .card .grade {
+.edu-inner-container .edu-card .grade {
     font-size: 14px;
     font-weight: 500;
 }

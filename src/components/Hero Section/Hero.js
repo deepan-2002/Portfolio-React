@@ -1,5 +1,5 @@
 import { Bio } from "../../data/details";
-import ProfilePic from "../../image/ProfilePic2.jpg"
+import ProfilePic from "../../image/ProfilePic3.jpg"
 import './Hero.css'
 
 function Hero() {
@@ -7,7 +7,7 @@ function Hero() {
         <div id="about" className="hero-container">
             <div className="container">
                 <div className="row text-center text-lg-start">
-                <div className="col-12 col-lg-6 order-lg-2 hero-container-right d-flex justify-content-end">
+                    <div className="col-12 col-lg-6 order-lg-2 hero-container-right d-flex justify-content-end">
                         <img src={ProfilePic} alt="Deeban Yathiraja" className="m-auto img-fluid" />
                     </div>
                     <div className="col-12 col-lg-6 hero-container-left">

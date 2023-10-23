@@ -2,23 +2,13 @@
 
 
 :root {
-    --primary: #854CE6;
-    --background-1: #222A35;
-    --background-2: #19212C;
-    --text: #C8CFD8;
-    --text-1: #F2F5F7;
-    --text-2: #626970;
-    --text-3: #575C66;
-    --footer-background: #00012B;
-
-    --bg:#1C1C27;
-    --bg-light: #1C1E27;
+    --primary: #12bdff;
+    --primary-btn: #0046d1;
+    --bg:#22282f;
     --text-primary:#F2F3F4;
     --text-secondary:#b1b2b3;
-    --card:#171721;
-    --card-light: #191924;
-    --white:#FFFFFF;
-    --black:#000000;
+    --card:#1c1f24;
+    --shadow:#070808;
 }
 
 *{

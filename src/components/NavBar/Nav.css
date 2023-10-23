@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 
 nav {
-    background-color: var(--card-light);
+    background-color: var(--card);
     height: 80px;
     font-size: 1rem !important;
     font-weight: 700;
@@ -9,6 +9,10 @@ nav {
 }
 nav .container{
     padding: 0;
+}
+
+.navbar-nav, nav .btn-container-git{
+    background-color: var(--card);
 }
 
 .nav-link {
@@ -23,10 +27,13 @@ nav .container{
     color: var(--primary);
 }
 
-.custom-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+.navbar-toggler-icon{
+    color: var(--text-primary);
 }
 
+.active{
+    color: var(--primary) !important;
+}
 
 .btn-container-git button {
     color: var(--primary);
@@ -42,5 +49,5 @@ nav .container{
 
 .btn-container-git button:hover {
     background-color: var(--primary);
-    color: var(--white);
+    color: var(--text-primary);
 }

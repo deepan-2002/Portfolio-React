@@ -1,5 +1,5 @@
 .hero-container {
-    background-color: var(--card-light);
+    background-color: var(--card);
     padding: 80px 30px;
 }
 
@@ -28,12 +28,12 @@
     max-width: 300px;
     padding: 16px 0;
     border-radius: 20px;
-    background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-    box-shadow: 20px 20px 60px #1F2634;
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-btn) 100%);
+        box-shadow: 20px 20px 60px #1F2634;
     border: none;
     font-size: 20px;
     font-weight: 600;
-    color: var(--white);
+    color: var(--text-primary);
 }
 
 .hero-container-left button:hover {

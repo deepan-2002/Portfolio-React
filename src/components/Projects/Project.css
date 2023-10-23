@@ -9,7 +9,7 @@
 .projects-container .project-card {
     background-color: var(--card);
     color: var(--text-secondary);
-    box-shadow: 0px 4px 24px var(--black);
+    box-shadow: 0px 4px 24px var(--shadow);
     border-radius: 16px;
     padding: 18px 36px;
     transition: all 0.3s ease-in-out;
@@ -31,7 +31,7 @@
     font-size: 12px;
     font-weight: 400;
     color: var(--primary);
-    background-color: #28223d;
+    background-color: var(--card);
     padding: 2px 8px;
     border-radius: 10px;
     margin: 0 5px;
@@ -42,7 +42,7 @@
 }
 
 .projects-container .code {
-    background-color: var(--bg-light);
+    background-color: var(--bg);
     color: var(--text-secondary);
     font-size: 16px;
     font-weight: 600;

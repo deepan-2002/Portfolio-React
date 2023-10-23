@@ -7,7 +7,6 @@ import { Bio } from "../../data/details"
 
 function NavBar() {
   return (
-    <>
       <Navbar sticky="top" collapseOnSelect expand="lg">
         <Container>
           <Navbar.Brand href="/" className="text-light">Portfolio</Navbar.Brand>
@@ -27,7 +26,6 @@ function NavBar() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-    </>
   )
 }
 

@@ -8,7 +8,7 @@
 
 .inner-container {
     background-color: var(--card);
-    border: 0.1px solid #854ce6;
+    border: 0.1px solid var(--primary);
     box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
     border-radius: 16px;
     padding: 18px 36px;
