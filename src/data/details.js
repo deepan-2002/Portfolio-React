@@ -17,7 +17,9 @@ export const Bio = {
     description: "Seeking a beginner role to enhance and explore my technical knowledge gained. Have Excellent teamwork, interpersonal and communication skills. Looking to start a career as an entry-level professional with a reputed IT company.",
     github: "https://github.com/deepan-2002",
     resume: "https://drive.google.com/file/d/1J2myadLHf4XTJIde38GiFHNlMC-xN1lK/view?usp=drivesdk",
-    linkedin: "https://www.linkedin.com/in/deeban-yathiraja/"
+    linkedin: "https://www.linkedin.com/in/deeban-yathiraja/",
+    mobile: '7339003664',
+    email: 'deebanyathiraja2002@gmail.com'
 };
 
 export const Skill=[

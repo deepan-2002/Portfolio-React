@@ -1,0 +1,38 @@
+footer {
+    padding: 2rem 0;
+    background: var(--bg);
+    bottom: 0;
+}
+
+footer .head {
+    font-size: 42px;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+footer .icon-container {
+    margin-top: 1rem;
+}
+
+footer .icon-container a {
+    margin: 0 1rem;
+    color: var(--text-primary);
+    font-size: 1.5rem;
+    transition: color 0.2s ease-in-out;
+}
+
+footer .icon-container a:hover {
+    color: var(--primary);
+}
+
+footer .copyright {
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+    color: var(--text-primary);
+    bottom: 0;
+}
+
+footer .copyright a {
+    color: var(--primary);
+    text-decoration: none;
+}

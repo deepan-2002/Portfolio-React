@@ -19,6 +19,7 @@ function NavBar() {
               <Nav.Link href="#certification">Certifications</Nav.Link>
               <Nav.Link href="#projects">Projects</Nav.Link>
               <Nav.Link href="#education">Education</Nav.Link>
+              <Nav.Link href="#contact">Contact</Nav.Link>
             </Nav>
             <div className="btn-container-git">
               <a href={Bio.github} target="blank"><button>Github Profile</button></a>
