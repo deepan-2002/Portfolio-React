@@ -27,10 +27,6 @@ nav .container{
     color: var(--primary);
 }
 
-.navbar-toggler-icon{
-    color: var(--text-primary);
-}
-
 .active{
     color: var(--primary) !important;
 }

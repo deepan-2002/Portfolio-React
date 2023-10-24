@@ -10,7 +10,7 @@ function Hero() {
                     <div className="col-12 col-lg-6 order-lg-2 hero-container-right d-flex justify-content-end">
                         <img src={ProfilePic} alt="Deeban Yathiraja" className="m-auto img-fluid" />
                     </div>
-                    <div className="col-12 col-lg-6 hero-container-left">
+                    <div className="col-12 col-lg-6 hero-container-left mt-3">
                         <p className="name">Hi, I am <br /> {Bio.name}</p>
                         <p className="role">{Bio.roles}</p>
                         <p className="description">{Bio.description}</p>
