@@ -8,6 +8,7 @@ import LightSwitch from '../image/Light Switch.png'
 import Resume from '../image/Resume Builder.png'
 import SJC from '../image/SJC-logo.jpeg'
 import SJMHSS from '../image/SJMHSS-logo.jpeg'
+import FrontEnd from '../image/Front End.png'
 
 export const Bio = {
     name: "Deeban Yathiraja R",
@@ -55,6 +56,16 @@ export const Skill=[
 
 export const Certifications=[
     {
+        name: 'Introduction to Front-End Development',
+        institution: 'Meta - Cousera',
+        link: 'https://www.coursera.org/account/accomplishments/verify/D9XMV2MMQS5A',
+        image: FrontEnd,
+        skill: [
+            'HTML',
+            'CSS'
+        ]
+    },
+    {
         name: 'HTML and CSS in depth',
         institution: 'Meta - Cousera',
         link: 'https://www.coursera.org/account/accomplishments/verify/AET7PL22SJTE',
@@ -97,7 +108,7 @@ export const projects = [
             'Axios'
         ],
         link: 'https://github.com/deepan-2002/Restaurant-Webpage',
-        code: 'https://github.com/deepan-2002/Restaurant-Webpage',
+        code: 'https://restaurant-webpage14.netlify.app',
         image: Restaurant,
         description: 'Just posting datas in API and fetching that data from that API shown like a Table booking App using ReactJS'
     },
