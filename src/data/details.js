@@ -51,6 +51,18 @@ export const Skill=[
     {
         name: 'GitHub',
         image: 'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png'
+    },
+    {
+        name: 'Photoshop',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/1200px-Adobe_Photoshop_CC_icon.svg.png'
+    },
+    {
+        name: 'Illustrator',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Adobe_Illustrator_CC_icon.svg/2101px-Adobe_Illustrator_CC_icon.svg.png'
+    },
+    {
+        name: 'Figma',
+        image: 'https://cdn.sanity.io/images/599r6htc/localized/46a76c802176eb17b04e12108de7e7e0f3736dc6-1024x1024.png?w=804&h=804&q=75&fit=max&auto=format'
     }
 ]
 
