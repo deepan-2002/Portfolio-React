@@ -7,6 +7,7 @@ import Certification from './components/Certifications/Certification';
 import Project from './components/Projects/Projects';
 import Education from './components/Education/Education';
 import Footer from './components/Footer/Footer';
+import Works from './components/Works/Works';
 
 
 const Wrapper = styled.div`
@@ -25,6 +26,7 @@ function App() {
       </Wrapper>
       <Project />
       <Wrapper>
+        <Works/>
         <Education />
       </Wrapper>
       <Footer />

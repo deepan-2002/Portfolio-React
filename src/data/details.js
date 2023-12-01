@@ -198,3 +198,16 @@ export const education =[
     }
     
 ]
+
+export const works=[
+    {
+        title: 'React JS',
+        link: 'https://deepan-react-tasks.netlify.app/',
+        description: "Compilation of some of my works created using ReactJS"
+    },
+    {
+        title: 'UI/UX Design',
+        link: 'https://www.behance.net/gallery/185318967/SwipePay-Payment-App-UIUX-design',
+        description: "UI/UX design Portfolio | Online mobile payment app | SwipePay"
+    }
+]
