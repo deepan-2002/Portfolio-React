@@ -119,8 +119,8 @@ export const projects = [
             'API',
             'Axios'
         ],
-        link: 'https://github.com/deepan-2002/Restaurant-Webpage',
-        code: 'https://restaurant-webpage14.netlify.app',
+        link: 'https://restaurant-page14.netlify.app/',
+        code: 'https://github.com/deepan-2002/Restaurant-Webpage',
         image: Restaurant,
         description: 'Just posting datas in API and fetching that data from that API shown like a Table booking App using ReactJS'
     },
