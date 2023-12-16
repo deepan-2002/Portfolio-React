@@ -9,6 +9,7 @@ import Resume from '../image/Resume Builder.png'
 import SJC from '../image/SJC-logo.jpeg'
 import SJMHSS from '../image/SJMHSS-logo.jpeg'
 import FrontEnd from '../image/Front End.png'
+import UI_UX from "../image/UI-UX.png";
 
 export const Bio = {
     name: "Deeban Yathiraja R",
@@ -95,6 +96,15 @@ export const Certifications=[
         image: JavaScript,
         skill: [
             'JavaScript'
+        ]
+    },
+    {
+        name: 'Principles of UX/UI Design',
+        institution: 'Meta - Cousera',
+        link: 'https://www.coursera.org/account/accomplishments/verify/ZVKPJXL29JTT',
+        image: UI_UX,
+        skill: [
+            'Figma'
         ]
     }
 ]

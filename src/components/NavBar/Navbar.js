@@ -8,7 +8,7 @@ import { Bio } from "../../data/details"
 function NavBar() {
   return (
       <Navbar sticky="top" collapseOnSelect expand="lg" data-bs-theme='dark'>
-        <Container>
+        <Container fluid>
           <Navbar.Brand href="/" className="text-light">Portfolio</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
