@@ -19,7 +19,7 @@ export const Bio = {
     ],
     description: "Seeking a beginner role to enhance and explore my technical knowledge gained. Have Excellent teamwork, interpersonal and communication skills. Looking to start a career as an entry-level professional with a reputed IT company.",
     github: "https://github.com/deepan-2002",
-    resume: "https://drive.google.com/file/d/1J2myadLHf4XTJIde38GiFHNlMC-xN1lK/view?usp=drivesdk",
+    resume: "https://drive.google.com/file/d/1CrSjLVXTtuT1v0Tw4Vap8zXacnjwa3O5/view?usp=drivesdk",
     linkedin: "https://www.linkedin.com/in/deeban-yathiraja/",
     mobile: '7339003664',
     email: 'deebanyathiraja2002@gmail.com'
@@ -37,6 +37,10 @@ export const Skill=[
     {
         name: 'Bootstrap',
         image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/240px-Bootstrap_logo.svg.png'
+    },
+    {
+        name: 'Tailwind CSS',
+        image: 'https://avatars.githubusercontent.com/u/30317862?s=280&v=4'
     },
     {
         name: 'JavaScript',
