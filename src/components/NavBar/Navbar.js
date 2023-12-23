@@ -4,6 +4,8 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Bio } from "../../data/details"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 function NavBar() {
   return (
@@ -21,7 +23,7 @@ function NavBar() {
               <Nav.Link href="#contact">Contact</Nav.Link>
             </Nav>
             <div className="btn-container-git">
-              <a href={Bio.github} target="blank"><button>Github Profile</button></a>
+              <a href={Bio.github} target="blank"><button><FontAwesomeIcon icon={faGithub} /> Github</button></a>
             </div>
           </Navbar.Collapse>
         </Container>

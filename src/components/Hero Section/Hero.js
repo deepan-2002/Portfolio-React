@@ -14,7 +14,7 @@ function Hero() {
                         <p className="name">Hi, I am <br /> {Bio.name}</p>
                         <p className="role">{Bio.roles}</p>
                         <p className="description">{Bio.description}</p>
-                        <a href={Bio.resume} target="blank"><button>Check Resume</button></a>
+                        <a href={Bio.resume} target="blank"><button>My Resume</button></a>
                     </div>
                 </div>
 

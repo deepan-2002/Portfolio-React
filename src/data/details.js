@@ -10,6 +10,7 @@ import SJC from '../image/SJC-logo.jpeg'
 import SJMHSS from '../image/SJMHSS-logo.jpeg'
 import FrontEnd from '../image/Front End.png'
 import UI_UX from "../image/UI-UX.png";
+import BMI from '../image/BMI.png'
 
 export const Bio = {
     name: "Deeban Yathiraja R",
@@ -115,12 +116,26 @@ export const projects = [
         skills: [
             'HTML',
             'CSS',
+            'JavaScript',
+            'Local Storage',
+            'JSON'
+        ],
+        link: 'https://deepan-2002.github.io/ToDo-List/',
+        code: 'https://github.com/deepan-2002/ToDo-List',
+        image: ToDoList,
+        description: 'This JavaScript-based to-do list app leverages local storage functionality for seamless task management.'
+    },
+    {
+        name:'BMI Calculator',
+        skills: [
+            'HTML',
+            'tailwindcss',
             'JavaScript'
         ],
-        link: 'https://deepan-2002.github.io/Add-To-List/',
-        code: 'https://github.com/deepan-2002/Add-To-List',
-        image: ToDoList,
-        description: 'Simple To-Do List app using JavaScript'
+        link: 'https://deepan-2002.github.io/BMI-Calculator/',
+        code: 'https://github.com/deepan-2002/BMI-Calculator',
+        image: BMI,
+        description: 'Body Mass Index Calculator, built using JavaScript. Enter you Height and Weight to know your Body Mass Index'
     },
     {
         name:'Restaurant Table Booking Page',
