@@ -10,7 +10,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 function NavBar() {
   return (
       <Navbar sticky="top" collapseOnSelect expand="lg" data-bs-theme='dark'>
-        <Container fluid>
+        <Container>
           <Navbar.Brand href="/" className="text-light">Portfolio</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
