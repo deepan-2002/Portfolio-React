@@ -27,7 +27,7 @@ nav .container{
     color: var(--primary);
 }
 
-.active{
+.nav-link.active{
     color: var(--primary) !important;
 }
 

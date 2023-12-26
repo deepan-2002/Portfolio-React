@@ -11,13 +11,16 @@ import SJMHSS from '../image/SJMHSS-logo.jpeg'
 import FrontEnd from '../image/Front End.png'
 import UI_UX from "../image/UI-UX.png";
 import BMI from '../image/BMI.png'
+import reactBasics from '../image/React Basics.png'
 
 export const Bio = {
     name: "Deeban Yathiraja R",
     roles: [
         "Web Developer",
+        'UI/UX Designer',
+        'Graphic Designer'
     ],
-    description: "Seeking a beginner role to enhance and explore my technical knowledge gained. Have Excellent teamwork, interpersonal and communication skills. Looking to start a career as an entry-level professional with a reputed IT company.",
+    description: "Enthusiastic Web Developer with a passion for crafting captivating digital experiences. Committed to excellence, I thrive on merging creativity with technical precision to deliver user-centric solutions. Open to exciting opportunities in web development and design.",
     github: "https://github.com/deepan-2002",
     resume: "https://drive.google.com/file/d/1CrSjLVXTtuT1v0Tw4Vap8zXacnjwa3O5/view?usp=drivesdk",
     linkedin: "https://www.linkedin.com/in/deeban-yathiraja/",
@@ -101,6 +104,15 @@ export const Certifications=[
         image: JavaScript,
         skill: [
             'JavaScript'
+        ]
+    },
+    {
+        name: 'React Basics',
+        institution: 'Meta - Cousera',
+        link: 'https://www.coursera.org/account/accomplishments/verify/EDDR4M9VVYQT',
+        image: reactBasics,
+        skill: [
+            'ReactJS'
         ]
     },
     {
