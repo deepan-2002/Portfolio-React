@@ -10,7 +10,7 @@ export const PERSONAL_INFO = {
     location: "Trichy, Tamil Nadu, India",
     about: "Passionate Software Engineer with expertise in designing and building scalable web and mobile applications using React.js, React Native, Node.js, and NestJS. Skilled in full-stack development, RESTful APIs, state management, and PostgreSQL optimization. Experienced in system design, responsive interfaces, and delivering production-ready solutions. Seeking a software development role to contribute to innovative applications while leading end-to-end implementation.",
     profilePic: ProfilePic,
-    resume: "https://drive.google.com/file/d/1V9uiWHTYU9jqeht31JpKKOWIerYaXknD/view?usp=drive_link", // Add your Drive link here
+    resume: "https://drive.google.com/file/d/1g3xfxms9j3U5Fb740r21jbxs_cBwvjOB/view?usp=drive_link", // Add your Drive link here
     social: {
         github: "https://github.com/deepan-2002",
         linkedin: "https://linkedin.com/in/deeban-yathiraja",
